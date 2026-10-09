@@ -1,0 +1,15 @@
+{
+  "name": "feishu-codex-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted Feishu assistant powered by Codex CLI",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test bridge.test.mjs",
+    "start": "node bridge.mjs"
+  }
+}

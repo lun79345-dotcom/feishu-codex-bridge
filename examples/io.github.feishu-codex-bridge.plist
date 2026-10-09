@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>Label</key><string>io.github.feishu-codex-bridge</string>
+<key>ProgramArguments</key><array><string>REPLACE_ABSOLUTE_NODE_PATH</string><string>REPLACE_PROJECT_PATH/bridge.mjs</string></array>
+<key>WorkingDirectory</key><string>REPLACE_PROJECT_PATH</string>
+<key>EnvironmentVariables</key><dict><key>PATH</key><string>REPLACE_CLI_BIN_DIRECTORY:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string></dict>
+<key>RunAtLoad</key><true/>
+<key>KeepAlive</key><true/>
+<key>ThrottleInterval</key><integer>15</integer>
+<key>ExitTimeOut</key><integer>30</integer>
+<key>StandardOutPath</key><string>REPLACE_PROJECT_PATH/.bridge/service.log</string>
+<key>StandardErrorPath</key><string>REPLACE_PROJECT_PATH/.bridge/service-error.log</string>
+</dict></plist>

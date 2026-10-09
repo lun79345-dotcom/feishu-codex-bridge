@@ -1,0 +1,9 @@
+node_modules/
+bridge.config.json
+.bridge/
+output/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

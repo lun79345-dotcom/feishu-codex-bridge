@@ -1,0 +1,13 @@
+{
+  "lark": "lark-cli",
+  "codex": "codex",
+  "chatId": "oc_REPLACE_WITH_OWNER_CHAT_ID",
+  "allowedUserId": "ou_REPLACE_WITH_OWNER_OPEN_ID",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "pollSeconds": 8,
+  "maxQueue": 10,
+  "dailyLimit": 200,
+  "taskTimeoutMs": 900000,
+  "teamMode": false
+}
